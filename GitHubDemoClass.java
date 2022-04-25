@@ -34,4 +34,8 @@ public class GitHubDemoClass
         System.out.println("My name is Jake Kymer");
     }
     
+    public void printHunt(){
+        System.out.println("My name is Gunnar Hunt");
+    }
+    
 }
