@@ -21,6 +21,10 @@ public class GitHubDemoClass
     }
 
     
+    public void printCrosbie(){
+        System.out.println("My name is Bill Crosbie");
+        
+    }
     
     
 }
