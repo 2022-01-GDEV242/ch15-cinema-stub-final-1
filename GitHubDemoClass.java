@@ -26,5 +26,9 @@ public class GitHubDemoClass
         
     }
     
+    public void printRutishauser(){
+        System.out.println("My name is Ryan Rutishauser");
+        
+    }
     
 }
