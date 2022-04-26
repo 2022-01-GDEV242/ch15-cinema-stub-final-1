@@ -1,0 +1,14 @@
+-Jake Kymer 4/26-
+Whenever you update something make sure to update the @verson. the format we are going to use
+is going to be initial then date. So if I were to make a change I would vhange the @version 
+to say J4-26.
+
+Next after you update the @version write what you changed below it. I know we will sum up 
+what we did in our Git commits but lets make it easier for everyone else and sum it up in the code.
+
+If there is ever anything you need us to know for the next time update this doc. make sure you check this
+doc before working on the code. Just start a new paragraph and head it like i did this one; name and date.
+
+furthermore please update the read me doc with your names under authors. 
+
+if you ever need me imidiately im almost always on discord and will respond asap. Heres my username Spirit_Shadow#3564

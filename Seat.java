@@ -3,7 +3,7 @@
  * Write a description of class Seat here.
  *
  * @author (your name)
- * @version (a version number or a date)
+ * @version J4-26
  */
 public class Seat
 {
