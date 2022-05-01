@@ -1,34 +1,30 @@
 
 /**
- * Write a description of class Seat here.
+ * Each seat object represents a single seat in a row of a movie theatre.
+ * Each seat is initially set so as not to be reserved but can be reserved using 
+ * reserve method. Additionally, a reservation can be cancelled using cancel method.
+ * Each seat has a reservation status, isReserved and a seatNumber String which is created
+ * based on its row number and position in that row.
  *
- * @author (your name)
- * @version J4-26
+ * @author Ryan Rutishauser
+ * @version R4-30
  * 
  * added getters and setters for seatNumber. I also started the constuctor.
- * added the boolean is reserved.
+ * added the boolean is reserved. 
  */
 public class Seat
 {
     // instance variables - replace the example below with your own
     private boolean isReserved;
-    private int seatNumber;
+    private String seatNumber;
 
     /**
      * Constructor for objects of class Seat
      */
-    public Seat(Row row)
+    public Seat(String seatNumber)
     {
-        
-    }
-    
-    /**
-     * alows the seatNumber to be set
-     * 
-     * @param seatNum stores the number the seat will have.
-     */
-    public void setSeatNumber(int seatNum){
-        seatNumber = seatNum;
+        isReserved = false;
+        this.seatNumber = seatNumber;
     }
     
     /**
@@ -36,7 +32,31 @@ public class Seat
      * 
      * @return Returns seatNumber
      */
-    public int getSeatNumber(){
+    public String getSeatNumber(){
         return seatNumber;
+    }
+    
+    /**
+     * Allows seat to be reserved.
+     */
+    public void reserve(){
+        if(isReserved = false){
+            isReserved = true;
+        }
+        else{
+            System.out.println("Seat " + seatNumber + " is already reserved.");
+        }
+    }
+    
+    /**
+     * Allows seat reservation to be cancelled.
+     */
+    public void cancel(){
+        if(isReserved = true){
+            isReserved = false;
+        }
+        else{
+            System.out.println("Seat " + seatNumber + " has not been reserved yet.");
+        }
     }
 }
