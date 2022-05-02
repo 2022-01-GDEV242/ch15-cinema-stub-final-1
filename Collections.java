@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * stores all collections we need.
  *
@@ -17,7 +19,6 @@ public class Collections
      */
     public Collections()
     {
-        // initialise instance variables
         
     }
     
