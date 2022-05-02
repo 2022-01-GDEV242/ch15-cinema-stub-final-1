@@ -40,7 +40,7 @@ public class Seat
      * Allows seat to be reserved.
      */
     public void reserve(){
-        if(isReserved = false){
+        if(isReserved == false){
             isReserved = true;
         }
         else{
@@ -52,11 +52,17 @@ public class Seat
      * Allows seat reservation to be cancelled.
      */
     public void cancel(){
-        if(isReserved = true){
+        if(isReserved == true){
             isReserved = false;
         }
         else{
             System.out.println("Seat " + seatNumber + " has not been reserved yet.");
+        }
+    }
+    
+    public void setReserved(){
+        if(isReserved == false){
+            isReserved =! isReserved;
         }
     }
 }

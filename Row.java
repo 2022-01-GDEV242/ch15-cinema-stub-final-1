@@ -33,8 +33,8 @@ public class Row
     {
         for(int k = 1; k < (numSeats + 1); ++k){
             
-        String seatNumber = rowNumber + "-" + k;
-        seats.add(new Seat(seatNumber));
+            String seatNumber = rowNumber + "-" + k;
+            seats.add(new Seat(seatNumber));
         }
     }
     

@@ -35,8 +35,8 @@ public class Theatre
     public void setRows()
     {
         for(int k = 1; k < (numRows + 1); ++k){
-        String rowNumber = "" + k;
-        rows.add(new Row(numSeatsRow, rowNumber));
+            String rowNumber = "" + k;
+            rows.add(new Row(numSeatsRow, rowNumber));
         }
     }
     
