@@ -25,9 +25,33 @@ public class BookingSystem
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public int groupBook()
     {
         // put your code here
-        return x + y;
+        return x;
+    }
+    
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int individualBook()
+    {
+        // put your code here
+        return x;
+    }
+    
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int findCustomer()
+    {
+        // put your code here
+        return x;
     }
 }
