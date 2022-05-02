@@ -13,18 +13,16 @@ public class Theatre
     // instance variables - replace the example below with your own
     private ArrayList<Row> rows;
     private int numRows;
-    private int numSeatsRow;
     private String theatreNumber;
 
     /**
      * Constructor for objects of class Theatre
      */
-    public Theatre(int numRows, int numSeatsRow, String theatreNumber)
+    public Theatre(String theatreNumber)
     {
         // initialise instance variables
         rows = new ArrayList<>();
-        this.numRows = numRows;
-        this.numSeatsRow = numSeatsRow;
+        numRows = 0;
         this.theatreNumber = theatreNumber;
     }
 
@@ -32,12 +30,13 @@ public class Theatre
      *This method creates numRows number of rows in a theatre along with passing 
      *the row number to each row object based on the row positon in the theatre. 
      */
-    public void setRows()
-    {
-        for(int k = 1; k < (numRows + 1); ++k){
+    public void setRows(int numberRows, int numSeatsRow)
+    {   
+        for(int k = (numRows + 1); k < (numberRows + 1); ++k){
             String rowNumber = "" + k;
             rows.add(new Row(numSeatsRow, rowNumber));
         }
+        numRows += numberRows;
     }
     
     /**
