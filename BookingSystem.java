@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class BookingSystem here.
  *
@@ -8,7 +8,8 @@
 public class BookingSystem
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private ArrayList<Customer> customers;
+    private ArrayList<Showing> showings;
 
     /**
      * Constructor for objects of class BookingSystem
@@ -16,26 +17,28 @@ public class BookingSystem
     public BookingSystem()
     {
         // initialise instance variables
-        x = 0;
+        customers = new ArrayList<>();
+        showings = new ArrayList<>();
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * This method is going to take a certain showing and iterate over seats and 
+     * print unreserved seat numbers that are in a line of groupSize. If group size is even, 
+     * it will print unreserved seat numbers that are in square groupings of groupSize. For instance, 
+     * if group size equals 4, a 2x2 square.
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param showing, groupSize
      */
-    public int groupBook()
+    public void groupBook()
     {
-        // put your code here
-        return x;
+        
     }
     
     /**
-     * An example of a method - replace this comment with your own
+     * This method is going to take a certain showing and iterate over seats and 
+     * print unreserved seats that are in a line of groupSize
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param showing
      */
     public int individualBook()
     {
