@@ -56,6 +56,11 @@ public class Movie
         title = movieName;
     }
     
+    /**
+     * returns the title of the movie
+     *
+     * @return returns title.
+     */
     public String getTitle(){
         return title;
     }
