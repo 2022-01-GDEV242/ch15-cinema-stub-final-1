@@ -30,6 +30,14 @@ public class Showing
     // }
     
     /**
+     * @return movie title.
+     */
+    // public String getMovieLength()
+    // {
+        // return movie.getTitle();
+    // }
+    
+    /**
      * @return theatre of the showing.
      */
     public String getTheatre()
