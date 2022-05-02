@@ -21,12 +21,19 @@ public class Movie
     }
 
     /**
+     * sets the length of the movie
      * 
+     * @param time stores the time of the movie so pass to runTime.
      */
     public void setRunTime(int time){
         runTime = time; 
     }
     
+    /**
+     * returns the length of the movie
+     * 
+     * @return Returns runTime.
+     */
     public int getRunTime(){
         return runTime;
     }
@@ -40,6 +47,11 @@ public class Movie
         return (runTime + 30);
     }
     
+    /**
+     * sets the title of the movie
+     * 
+     * @param movieName stores the name of the movie to pass to title.
+     */
     public void setTitle(String movieName){
         title = movieName;
     }

@@ -21,27 +21,27 @@ public class Ticket
 
     public void getMovie()
     {
-        
+        //shouldent this be part of the constructor?
     }
     
     public void getSeat()
     {
-        
+        //shouldent this be part of the constructor?
     }
     
     public void setTheatreNumber()
     {
-        
+        //shouldent this be part of the constructor?
     }
     
     public void getTheare()
     {
-        
+        //shouldent this be part of the constructor?
     }
     
     public void getShowing()
     {
-        
+        //shouldent this be part of the constructor?
     }
     
     /**
