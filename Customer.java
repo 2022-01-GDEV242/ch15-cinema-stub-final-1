@@ -9,7 +9,7 @@ public class Customer
 {
     // instance variables - replace the example below with your own
     private Random confermationNumber = new Random(1000000);
-    private double phoneNumber;
+    protected double phoneNumber;
     private double confNumber;
 
     /**
