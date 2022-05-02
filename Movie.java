@@ -12,7 +12,10 @@ public class Movie
     private String title;
 
     /**
-     * Constructor for objects of class Movie
+     * creates an object of type movie
+     * 
+     * @param title the movie title
+     * @param runTime the lenght of the movie
      */
     public Movie(String title, int runTime)
     {

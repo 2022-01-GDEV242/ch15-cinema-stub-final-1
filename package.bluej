@@ -1,15 +1,15 @@
 #BlueJ package file
-dependency1.from=Row
-dependency1.to=Seat
+dependency1.from=Showing
+dependency1.to=Movie
 dependency1.type=UsesDependency
-dependency2.from=Theatre
-dependency2.to=Row
+dependency2.from=Showing
+dependency2.to=Theatre
 dependency2.type=UsesDependency
-dependency3.from=Showing
-dependency3.to=Movie
+dependency3.from=Theatre
+dependency3.to=Row
 dependency3.type=UsesDependency
-dependency4.from=Showing
-dependency4.to=Theatre
+dependency4.from=Row
+dependency4.to=Seat
 dependency4.type=UsesDependency
 editor.fx.0.height=881
 editor.fx.0.width=1048
@@ -26,7 +26,15 @@ package.editor.y=135
 package.frame.height=672
 package.frame.width=892
 package.numDependencies=4
+<<<<<<< Updated upstream
 package.numTargets=14
+=======
+<<<<<<< HEAD
+package.numTargets=10
+=======
+package.numTargets=14
+>>>>>>> 3b238754bd3b91420b6219429f85f1f3d5b21e55
+>>>>>>> Stashed changes
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -40,6 +48,20 @@ target1.name=Movie
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+target1.x=400
+target1.y=80
+target10.height=70
+target10.name=Collections
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=120
+target10.x=545
+target10.y=367
+=======
+>>>>>>> Stashed changes
 target1.x=130
 target1.y=10
 target10.height=70
@@ -76,6 +98,10 @@ target14.type=ClassTarget
 target14.width=120
 target14.x=140
 target14.y=90
+<<<<<<< Updated upstream
+=======
+>>>>>>> 3b238754bd3b91420b6219429f85f1f3d5b21e55
+>>>>>>> Stashed changes
 target2.height=70
 target2.name=Ticket
 target2.showInterface=false

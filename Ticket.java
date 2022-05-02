@@ -8,20 +8,29 @@
 public class Ticket
 {
     // instance variables - replace the example below with your own
+    private Showing showing;
+    private Seat seat;
+    private Customer customer;
+    private Movie movie;
     
 
     /**
      * Constructor for objects of class Ticket
      */
-    public Ticket()
+    public Ticket(Showing showing, Seat seat, Customer customer)
     {
-        Ticket Ticket = new Ticket();
+        Ticket Ticket = new Ticket(showing, seat, customer);
         
+        this.showing = showing;
+        this.movie = movie;
+        this.seat = seat;
+        this.customer = customer;
     }
 
-    public void getMovie()
+    public String getMovieTitle()
     {
         //shouldent this be part of the constructor?
+        return movie.getTitle();
     }
     
     public void getSeat()
@@ -29,12 +38,7 @@ public class Ticket
         //shouldent this be part of the constructor?
     }
     
-    public void setTheatreNumber()
-    {
-        //shouldent this be part of the constructor?
-    }
-    
-    public void getTheare()
+    public void getTheatre()
     {
         //shouldent this be part of the constructor?
     }
@@ -48,13 +52,8 @@ public class Ticket
      * An example of a method - replace this comment with your own
      *
      */
-    public void getCustomerInformation(double phoneNumber)
+    public double getCustomerNumber()
     {
-        
-        
-        
-        
-        
-        
+        return customer.phoneNumber;
     }
 }
