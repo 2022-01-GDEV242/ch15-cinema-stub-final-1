@@ -1,6 +1,6 @@
 import java.util.Random;
 /**
- * Write a description of class Customer here.
+ * Each customer has a phone number that is associated with them.
  *
  * @author (your name)
  * @version (a version number or a date)
@@ -8,9 +8,7 @@ import java.util.Random;
 public class Customer
 {
     // instance variables - replace the example below with your own
-    private Random confermationNumber = new Random(1000000);
-    protected double phoneNumber;
-    private double confNumber;
+    protected int phoneNumber;
 
     /**
      * Creates an object of type Customer the confermation number is assigned at random.
@@ -18,10 +16,17 @@ public class Customer
      * 
      * @param phoneNumber the customers phone number
      */
-    public Customer(double phoneNumber)
+    public Customer(int phoneNumber)
     {
         this.phoneNumber = phoneNumber;
-        confNumber = confermationNumber.nextInt();
         
+    }
+    
+    /**
+     * @returns phone number number.
+     */
+    public int getPhoneNumber()
+    {
+        return phoneNumber;
     }
 }

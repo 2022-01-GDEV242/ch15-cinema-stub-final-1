@@ -10,6 +10,7 @@ public class BookingSystem
     // instance variables - replace the example below with your own
     private ArrayList<Customer> customers;
     private ArrayList<Showing> showings;
+    private ArrayList<Theater> theaters;
 
     /**
      * Constructor for objects of class BookingSystem
@@ -19,6 +20,45 @@ public class BookingSystem
         // initialise instance variables
         customers = new ArrayList<>();
         showings = new ArrayList<>();
+        theaters = new ArrayList<>();
+    }
+    
+    /**
+     * Create all the theaters.
+     */
+    public void createTheaters()
+    {
+        Theater one, two, three, four, five;
+        
+        one = new Theater("one");
+        theaters.add(one);
+        two = new Theater("two");
+        theaters.add(two);
+        three = new Theater("three");
+        theaters.add(three);
+        four = new Theater("four");
+        theaters.add(four);
+        five = new Theater("five");
+        theaters.add(five);
+        
+        one.setRows(10, 10);
+        one.setRows(10, 8);
+        
+        two.setRows(4, 5);
+        two.setRows(10, 7);
+        two.setRows(4, 5);
+        
+        three.setRows(5, 7);
+        three.setRows(2, 4);
+        three.setRows(5, 7);
+        
+        four.setRows(2, 10);
+        four.setRows(1, 8);
+        four.setRows(2, 10);
+        four.setRows(5, 8);
+        
+        five.setRows(1, 8);
+        five.setRows(9, 10);
     }
 
     /**
@@ -40,10 +80,9 @@ public class BookingSystem
      *
      * @param showing
      */
-    public int individualBook()
+    public void individualBook()
     {
-        // put your code here
-        return x;
+        
     }
     
     /**
@@ -52,9 +91,8 @@ public class BookingSystem
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int findCustomer()
+    public void findCustomer()
     {
-        // put your code here
-        return x;
+        
     }
 }

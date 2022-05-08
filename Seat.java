@@ -60,9 +60,10 @@ public class Seat
         }
     }
     
-    public void setReserved(){
-        if(isReserved == false){
-            isReserved =! isReserved;
-        }
+    /**
+     * @returns whether seat is reserved or not.
+     */
+    public boolean getReservationStatus(){
+        return isReserved;
     }
 }

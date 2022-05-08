@@ -8,22 +8,22 @@ import java.util.ArrayList;
  * @author Ryan Rutishauser
  * @version R4-30
  */
-public class Theatre
+public class Theater
 {
     // instance variables - replace the example below with your own
     private ArrayList<Row> rows;
     private int numRows;
-    private String theatreNumber;
+    private String theaterNumber;
 
     /**
-     * Constructor for objects of class Theatre
+     * Constructor for objects of class Theater
      */
-    public Theatre(String theatreNumber)
+    public Theater(String theaterNumber)
     {
         // initialise instance variables
         rows = new ArrayList<>();
         numRows = 0;
-        this.theatreNumber = theatreNumber;
+        this.theaterNumber = theaterNumber;
     }
 
     /**
@@ -50,8 +50,8 @@ public class Theatre
     /**
      * @return theatre number
      */
-    public String getTheatreNumber()
+    public String getTheaterNumber()
     {
-        return theatreNumber;
+        return theaterNumber;
     }
 }

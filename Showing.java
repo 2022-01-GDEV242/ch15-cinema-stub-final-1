@@ -10,17 +10,17 @@ public class Showing
 {
     // instance variables - replace the example below with your own
     private Movie movie;
-    private Theatre theatre;
+    private Theater theater;
     private String date;
     private String time;
 
     /**
      * Constructor for objects of class Showing
      */
-    public Showing(Movie movie, Theatre theatre, String Date, String time)
+    public Showing(Movie movie, Theater theater, String Date, String time)
     {
         this.movie = movie;
-        this.theatre = theatre;
+        this.theater = theater;
         this.date = date;
         this.time = time;
     }
@@ -36,7 +36,7 @@ public class Showing
     /**
      * @return movie title.
      */
-    public String getMovieLength()
+    public String getMovieTitle()
     {
         return movie.getTitle();
     }
@@ -44,8 +44,8 @@ public class Showing
     /**
      * @return theatre of the showing.
      */
-    public String getTheatre()
+    public String getTheater()
     {
-        return theatre.getTheatreNumber();
+        return theater.getTheaterNumber();
     }
 }

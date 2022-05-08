@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * stores all collections we need.
+ * The collection method manages phone numbers and confirmation numbers.
  *
  * @author (your name)
  * @version (a version number or a date)

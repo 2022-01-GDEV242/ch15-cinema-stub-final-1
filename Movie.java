@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Movie here.
+ * Each movie has a run time and a title along with setter and getter methods for these.
  *
  * @author Jake Kymer
  * @version (a version number or a date)
