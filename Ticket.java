@@ -85,7 +85,7 @@ public class Ticket
         System.out.println("Your movie will play on " + getShowingDate() + " at " + getShowingTime() + "\n");
         System.out.println("Your Theater Number: " + getTheater() + "\nYour Seat Number: " + getSeat() + "\n");
         System.out.println("Confirmation Number: " + confNumber + "\n");
-        System.out.println("Thank you for using our theater!");
+        System.out.println("Please show this ticket to the employees at our theater. \nThank you for using our theater!");
     }
     
     
