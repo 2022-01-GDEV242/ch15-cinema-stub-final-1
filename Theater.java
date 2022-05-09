@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * There are accessor methods for number of rows and theatre number.
  *
  * @author Ryan Rutishauser
- * @version R4-30
+ * @version R5-08
  */
 public class Theater
 {

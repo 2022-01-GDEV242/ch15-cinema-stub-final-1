@@ -75,6 +75,14 @@ public class Ticket
     }
     
     /**
+     * @ return customer's name
+     */
+    public String getCustomerName()
+    {
+        return customer.getName();
+    }
+    
+    /**
      * Puts tickets information in a printable format for the customer to print and bring to the movie
      * or show theater employee from smartphone at the theater as proof.
      */

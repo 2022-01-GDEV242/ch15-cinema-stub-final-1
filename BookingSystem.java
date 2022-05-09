@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 /**
- * Write a description of class BookingSystem here.
+ * This class manages all of the other classes and is what are the methods the movie theater employee uses to manage reservations cancelations and
+ * other movie theater processes.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan
+ * @version R5-08
  */
 public class BookingSystem
 {
@@ -11,6 +12,7 @@ public class BookingSystem
     private ArrayList<Customer> customers;
     private ArrayList<Showing> showings;
     private ArrayList<Theater> theaters;
+    private ArrayList<Ticket> tickets;
 
     /**
      * Constructor for objects of class BookingSystem
@@ -21,6 +23,7 @@ public class BookingSystem
         customers = new ArrayList<>();
         showings = new ArrayList<>();
         theaters = new ArrayList<>();
+        tickets = new ArrayList<>();
     }
     
     /**
@@ -62,36 +65,68 @@ public class BookingSystem
     }
 
     /**
-     * This method is going to take a certain showing and iterate over seats and 
-     * print unreserved seat numbers that are in a line of groupSize. If group size is even, 
-     * it will print unreserved seat numbers that are in square groupings of groupSize. For instance, 
-     * if group size equals 4, a 2x2 square.
-     *
-     * @param showing, groupSize
-     */
-    public void groupSeach(Showing showing, int groupSize)
-    {
-        
-    }
-    
-    /**
-     * This method is going to take a certain showing and iterate over seats and 
-     * print unreserved seats that are in a line of groupSize
+     * This method is going to take a certain showing, iterate over seats in a certain theater, and 
+     * print unreserved seat numbers.
      *
      * @param showing
      */
-    public void individualBook(Showing showing)
+    public void seatSeach(Showing showing)
     {
         
     }
     
     /**
-     * An example of a method - replace this comment with your own
+     * This method will call the reserve method on a seat with the entered seat number for the specified showing. 
+     * It must be ran for each individual seat. 
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param showing, seat number
      */
-    public void findCustomer()
+    public void seatBook(Showing showing, String seatNumber)
+    {
+        
+    }
+    
+    /**
+     * This method will call the cancel method on a seat with the entered seat number for the specified showing. 
+     *
+     * @param showing, seat number
+     */
+    public void cancelSeatBook(Showing showing, String seatNumber)
+    {
+        
+    }
+    
+    /**
+     * This method will find a showing of the specified movie on a specified date and will return the showing time. 
+     *
+     * @param movie title, date
+     * @return time
+     */
+    public void findShowing(String movieTitle, String date)
+    {
+        
+    }
+    
+    /**
+     * This method will provide the customer's information if he can provide the confirmation number in the 
+     * event he forgot some peice of information associated with his reservation. It will do this by calling
+     * the print ticket method for a ticket with a given confirmation number.
+     *
+     * @param name
+     */
+    public void findInformation(String name)
+    {
+        
+    }
+    
+    /**
+     * This method can find and provide all the customer's phone numbers who have reserved a ticket for a specific showing
+     * in the event a showing is cancelled.
+     * It will do this by printing out the the phone number from the customer who has a ticket at a specific showing.
+     *
+     * @param confirmation number
+     */
+    public void findCustomers(Showing showing)
     {
         
     }

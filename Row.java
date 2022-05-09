@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * of seats in the row.
  *
  * @author Ryan Rutishauser
- * @version R4-30
+ * @version R5-08
  */
 public class Row
 {

@@ -7,7 +7,7 @@
  * based on its row number and position in that row.
  *
  * @author Ryan Rutishauser
- * @version R4-30
+ * @version R5-08
  * 
  * added getters and setters for seatNumber. I also started the constuctor.
  * added the boolean is reserved. 

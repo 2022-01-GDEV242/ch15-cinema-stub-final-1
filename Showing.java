@@ -4,7 +4,7 @@ import java.sql.Time;
  * for theatre number, movie length and movie title.
  *
  * @author Ryan Rutishauser
- * @version R4-30
+ * @version R5-08
  */
 public class Showing
 {
@@ -47,5 +47,21 @@ public class Showing
     public String getTheater()
     {
         return theater.getTheaterNumber();
+    }
+    
+    /**
+     * @return time of the showing.
+     */
+    public String getTime()
+    {
+        return time;
+    }
+    
+    /**
+     * @return date of the showing.
+     */
+    public String getDate()
+    {
+        return date;
     }
 }
