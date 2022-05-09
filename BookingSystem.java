@@ -108,7 +108,7 @@ public class BookingSystem
     }
     
     /**
-     * This method will provide the customer's information if he can provide the confirmation number in the 
+     * This method will provide the customer's information if he can provide his name in the 
      * event he forgot some peice of information associated with his reservation. It will do this by calling
      * the print ticket method for a ticket with a given confirmation number.
      *
