@@ -69,7 +69,7 @@ public class BookingSystem
      *
      * @param showing, groupSize
      */
-    public void groupBook()
+    public void groupSeach(Showing showing, int groupSize)
     {
         
     }
@@ -80,7 +80,7 @@ public class BookingSystem
      *
      * @param showing
      */
-    public void individualBook()
+    public void individualBook(Showing showing)
     {
         
     }
