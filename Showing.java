@@ -11,8 +11,8 @@ public class Showing
     // instance variables - replace the example below with your own
     private Movie movie;
     private Theater theater;
-    private String date;
-    private String time;
+    protected String date;
+    protected String time;
 
     /**
      * Constructor for objects of class Showing
